@@ -19,6 +19,7 @@ html{
 
 body{
     font-family: var(--lato);
+    font-size: 1.3em;
 }
 
 h2, h3{
@@ -35,6 +36,8 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 1rem;
 }
 
 header nav{
@@ -75,7 +78,8 @@ header nav a:hover{
     justify-content: center;
     max-width: 1000px;
     flex-wrap: nowrap;
-    gap: 1rem;
+    gap: 3rem;
+    padding: 1rem;
     text-align: justify;
 }
 
