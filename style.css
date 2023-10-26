@@ -158,6 +158,37 @@ header nav a:hover{
     gap: 2rem;
 }
 
+/*My repositories*/
+
+#repos{
+    display: flex;
+    flex-direction: column;
+    padding: 4rem;
+    gap: 2rem;
+    background-color: var(--blue);
+}
+
+#repos h2{
+    color: white;
+}
+
+#repos-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+#repos-content a{
+    color: var(--yellow);
+    text-decoration: none;
+}
+
+#repos-content a:hover{
+    text-decoration: underline;
+}
+
 /*Footer*/
 
 footer{
