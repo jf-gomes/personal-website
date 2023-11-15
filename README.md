@@ -2,6 +2,9 @@
 
 This is my personal website and portfolio.
 
-## Project features
+## About the project
 
-The website has a navbar which allows the user to jump between the sections
+The website was made to present, in a briefly and clean way, my main skills, experiences and projects.
+It brings the repos from my GitHub API.
+
+![repos](https://github.com/jf-gomes/personal-website/blob/master/img/repos.jpg)
