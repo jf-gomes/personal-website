@@ -128,22 +128,23 @@ header nav a:hover{
     align-items: center;
     flex-direction: column;
     gap: 2rem;
-    flex-wrap: wrap;
     padding: 4rem;
     background-color: var(--light-blue);
 }
 
 #skills-content{
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
+    flex-direction: column;
     gap: 2rem;
 }
 
-#web-development, #microsoft-excel, #python, #writing{
+#javascript, #react-native, #react, #python{
     display: flex;
     align-items: center;
     max-width: 800px;
+    gap: 1rem;
 }
 
 .skills-img{
@@ -152,10 +153,19 @@ header nav a:hover{
     border-radius: 50%;
 }
 
-#skills-content-left, #skills-content-right{
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+.skills-title{
+    border: 1px solid var(--dark-blue);
+    padding: 10px;
+    border-radius: 8px;
+    background-color: white;
+    width: 200px;
+    transition: .3s;
+}
+
+.skills-title:hover{
+    background-color: var(--dark-blue);
+    color: white;
+    cursor: pointer;
 }
 
 /*My repositories*/
